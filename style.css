@@ -1,0 +1,13 @@
+th.vertical,
+td.vertical {
+   writing-mode: tb-rl;
+   filter: flipH flipV;
+   background: #fff; /* для устранения бага с отображением текста в IE6 и ниже */
+}
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid;
+}
